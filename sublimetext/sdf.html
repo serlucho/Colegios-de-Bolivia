@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Noticias</title>
+  <style>
+    /* Estilos CSS para la apariencia básica */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .article {
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #666;
+    }
+    
+    .article h2 {
+      margin-top: 0;
+    }
+    
+    .article p {
+      margin-bottom: 10px;
+    }
+    
+    form {
+      margin-top: 30px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .comments {
+      margin-top: 30px;
+    }
+    
+    .comment {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #666;
+    }
+    
+    .comment p {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Noticias</h1>
+  
+  <div class="article">
+    <h2>Título de la noticia</h2>
+    <p>Contenido de la noticia.</p>
+    <p>Fecha de publicación: <span class="date">12 de junio de 2023</span></p>
+  </div>
+  
+  <form>
+    <label for="name">Nombre:</label>
+    <input type="text" name="name" id="name" required>
+    
+    <label for="comment">Comentario:</label>
+    <textarea name="comment" id="comment" required></textarea>
+    
+    <input type="submit" value="Enviar comentario">
+  </form>
+  
+  <div class="comments">
+    <div class="comment">
+      <p><strong>Usuario 1:</strong></p>
+      <p>Comentario 1.</p>
+      <p class="date">Publicado el 13 de junio de 2023</p>
+    </div>
+    
+    <div class="comment">
+      <p><strong>Usuario 2:</strong></p>
+      <p>Comentario 2.</p>
+      <p class="date">Publicado el 14 de junio de 2023</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+ 
+<title>Subir fotos con información</title>
+  
+  <
+<style>
+    /* Estilos CSS
+
+    /*
+
+    /* Estilos CSS para la apariencia básica */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"], input[type="file"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    textarea {
+      height: 100px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    input[type
+
+    /* Estilos CSS para la apariencia básica */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+    
+    label {
+      margin-bottom: 10px;
+    }
+    
+    input[type="text"], input[type="file"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    textarea {
+      height: 100px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    .message {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+
+</head
+</head>
+<body>
+  <h1>Subir fotos con información</h1>
+  
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    
+    <
+<label for="photo">Foto:</label>
+    <input type="file" name="photo" id="photo" required>
+    
+    <label for="title">Título:</label>
+    <input type="text" name="title" id="title" required>
+    
+    <label for="description">Descripción:</label>
+    
+   
+<textarea name="description" id="description" required></textarea>
+    
+    <input type="submit" value="Subir foto">
+  </form>
+  
+  <div class="message">
+    <!-- Aquí se mostrará un mensaje de éxito o error después de subir la foto -->
+  
+  </div
+
+ 
+</div>
+</body>
+</html>
